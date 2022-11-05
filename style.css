@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(70deg, rgb(170, 1, 193), rgb(198, 3, 143));
+}
+
+h1 {
+  margin: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75rem;
+  margin: auto;
+}
+.carouselContainer {
+  overflow: hidden;
+  display: flex;
+}
+/* .carousel {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+} */
+.slides {
+  width: 100%;
+  height: 390px;
+}
+.button {
+  font-size: x-large;
+  width: 100px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  opacity: 0.5;
+}
+/* #next {
+  position: absolute;
+  background-color: white;
+  opacity: 0.5;
+  top: 25%;
+  right: 25%;
+  width: 5%;
+  height: 20%;
+  z-index: 5;
+} */
+/* #next:hover {
+  opacity: 0.2;
+} */
+/* #prev {
+  position: absolute;
+  background-color: white;
+  opacity: 0.5;
+  top: 25%;
+  left: 25%;
+  width: 5%;
+  height: 20%;
+  z-index: 5;
+} */
+/* #prev:hover {
+  opacity: 0.2;
+} */
